@@ -10,7 +10,7 @@
 $HOST.UI.RawUI.BackgroundColor  = "DarkBlue"
 $HOST.UI.RawUI.ForegroundColor  = "White"
 
-#Assign variable values.
+# Assign variable values.
 $dir = split-path -Parent $MyInvocation.MyCommand.Path
 $dir = join-path $dir "\"
 $date = get-date -format "yyyyMMdd"
@@ -91,9 +91,9 @@ try
         Write-Progress -activity "Exporting $filename to CSV. File $i/$count." -status "Completed: " -PercentComplete (($i/$count)*100)
     }
 
-    # For SQL 2005/2008 compatibility 80 databases, run scripts that use CROSS
-    # APPLY or UNPIVOT against the master database.
-    if ($ver -eq 9 -OR $ver -eq 10)
+    # For SQL 2008 compatibility 80 databases, run scripts
+    # that use CROSS APPLY or UNPIVOT against the master database.
+    if ($ver -eq 10)
     {
         $FolderPath = "$FolderPath\80\"
         $files = get-childitem -path $FolderPath -filter "*.sql"
