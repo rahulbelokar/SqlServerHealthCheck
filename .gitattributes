@@ -1,2 +1,3 @@
 *.bat text eol=crlf
 *.md text eol=crlf
+*.sql text eol=sql
