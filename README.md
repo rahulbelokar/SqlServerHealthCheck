@@ -34,9 +34,9 @@ spreadsheet and then formats the report.
 
 The following software is required to run the health check:
 
-- PowerShell version 2.0 or higher (comes with Windows 7 and Windows Server 2008 R2)
+- PowerShell v2.0 or higher (comes with Windows 7 and Windows Server 2008 R2)
 - Microsoft Excel 2007 or higher.
-- SQLPS PowerShell module, which is installed with SQL Management Tools.
+- [SQLPS PowerShell Module], which is installed with SQL Management Tools.
 
 ## Permission Requirements
 
@@ -58,5 +58,6 @@ Remote WMI access is required to run the `ServerInformation.ps1` script. See
 not have the necessary access, the report will still run but will not include
 the server information worksheet.
 
+[SQLPS PowerShell Module]: https://msdn.microsoft.com/en-us/library/hh245198.aspx
 [zip]: https://github.com/jonlabelle/HealthCheck/archive/master.zip
 [this article]: http://www.adilhindistan.com/2013/10/permissions-to-access-wmi-remotely.html
