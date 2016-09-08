@@ -36,7 +36,7 @@ The following software is required to run the health check:
 
 - [PowerShell] v2.0 or higher (comes with Windows 7 and Windows Server 2008 R2)
 - Microsoft Excel 2007 or higher.
-- [SQLPS PowerShell Module], which is installed with SQL Management Tools.
+- [SQLPS PowerShell Module], which is installed with [SQL Server Management Tools].
 
 ## Permission Requirements
 
@@ -60,5 +60,6 @@ the server information worksheet.
 
 [PowerShell]: https://msdn.microsoft.com/en-us/powershell/scripting/setup/installing-windows-powershell
 [SQLPS PowerShell Module]: https://msdn.microsoft.com/en-us/library/hh245198.aspx
+[SQL Server Management Tools]: https://msdn.microsoft.com/en-us/library/hh213248.aspx
 [zip]: https://github.com/jonlabelle/HealthCheck/archive/master.zip
 [this article]: http://www.adilhindistan.com/2013/10/permissions-to-access-wmi-remotely.html
