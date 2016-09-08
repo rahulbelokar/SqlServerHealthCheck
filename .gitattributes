@@ -1,3 +1,6 @@
 *.bat text eol=crlf
 *.md text eol=crlf
-*.sql text eol=sql
+*.sql text eol=crlf
+*.txt text eol=crlf
+*.ps1 text eol=crlf
+Master.xlsm binary
